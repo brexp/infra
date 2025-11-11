@@ -1,0 +1,14 @@
+{
+  "sessionId": "5c29456b-9060-4255-a974-6b9720f200f8",
+  "projectHash": "95ab8478b5fc136a91eda9228bafb63a3c8fa4b561663162a9579f8add166c22",
+  "startTime": "2025-11-11T00:50:34.296Z",
+  "lastUpdated": "2025-11-11T00:50:34.297Z",
+  "messages": [
+    {
+      "id": "7d483c53-b4db-475a-b613-f672e403fbbf",
+      "timestamp": "2025-11-11T00:50:34.296Z",
+      "type": "user",
+      "content": "Como criar um agente"
+    }
+  ]
+}

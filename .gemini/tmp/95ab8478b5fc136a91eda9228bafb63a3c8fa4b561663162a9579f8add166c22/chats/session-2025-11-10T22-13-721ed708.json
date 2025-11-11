@@ -1,0 +1,14 @@
+{
+  "sessionId": "721ed708-3609-4975-be3a-6963cd2a11f0",
+  "projectHash": "95ab8478b5fc136a91eda9228bafb63a3c8fa4b561663162a9579f8add166c22",
+  "startTime": "2025-11-10T22:13:54.478Z",
+  "lastUpdated": "2025-11-10T22:13:54.478Z",
+  "messages": [
+    {
+      "id": "30055d51-a35d-46d0-8eac-54b005b75274",
+      "timestamp": "2025-11-10T22:13:54.478Z",
+      "type": "user",
+      "content": "contexto atual"
+    }
+  ]
+}

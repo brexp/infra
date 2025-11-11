@@ -1,0 +1,5 @@
+./main.go
+./syslist.go
+./validate.go
+./main_test.go
+./validate_test.go

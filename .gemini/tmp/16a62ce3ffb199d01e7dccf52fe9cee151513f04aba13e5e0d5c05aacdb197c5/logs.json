@@ -1,0 +1,51 @@
+[
+  {
+    "sessionId": "93baa7ce-9551-4490-8223-12d42f1ff589",
+    "messageId": 0,
+    "type": "user",
+    "message": "e",
+    "timestamp": "2025-10-31T07:06:39.255Z"
+  },
+  {
+    "sessionId": "93baa7ce-9551-4490-8223-12d42f1ff589",
+    "messageId": 1,
+    "type": "user",
+    "message": "Preciso de ajuda para configiurar as erramenta",
+    "timestamp": "2025-10-31T07:07:21.873Z"
+  },
+  {
+    "sessionId": "c7b91a3a-3bff-49b8-bab2-6f6821dd7d4c",
+    "messageId": 0,
+    "type": "user",
+    "message": "d",
+    "timestamp": "2025-10-31T07:07:40.974Z"
+  },
+  {
+    "sessionId": "c7b91a3a-3bff-49b8-bab2-6f6821dd7d4c",
+    "messageId": 1,
+    "type": "user",
+    "message": "clear",
+    "timestamp": "2025-10-31T07:08:31.624Z"
+  },
+  {
+    "sessionId": "c7b91a3a-3bff-49b8-bab2-6f6821dd7d4c",
+    "messageId": 2,
+    "type": "user",
+    "message": "Preciso de ajuda para configurar as ferramerntas do gemini enterprise",
+    "timestamp": "2025-10-31T07:08:45.383Z"
+  },
+  {
+    "sessionId": "c7b91a3a-3bff-49b8-bab2-6f6821dd7d4c",
+    "messageId": 3,
+    "type": "user",
+    "message": "voce pode me ajudar a configura a criaão de  um agent /",
+    "timestamp": "2025-10-31T07:18:34.029Z"
+  },
+  {
+    "sessionId": "c7b91a3a-3bff-49b8-bab2-6f6821dd7d4c",
+    "messageId": 4,
+    "type": "user",
+    "message": "quero utilizar as ferramentas do vertexz e do gemini enterprise",
+    "timestamp": "2025-10-31T07:18:51.955Z"
+  }
+]

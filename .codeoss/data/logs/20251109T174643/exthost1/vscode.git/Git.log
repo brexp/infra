@@ -1,0 +1,175 @@
+2025-11-09 17:46:53.198 [info] [main] Log level: Info
+2025-11-09 17:46:53.198 [info] [main] Validating found git in: "git"
+2025-11-09 17:46:53.198 [info] [main] Using git "2.43.0" from "git"
+2025-11-09 17:46:53.198 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-09 17:46:53.198 [info] > git rev-parse --show-toplevel [42ms]
+2025-11-09 17:46:53.198 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.286 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-09 17:46:53.286 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.293 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.293 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.301 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.301 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.308 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-09 17:46:53.308 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.314 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.314 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.322 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.322 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.328 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.328 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.335 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.335 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.342 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.342 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.348 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.348 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.355 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-09 17:46:53.355 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:53.361 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-09 17:46:53.361 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:46:56.119 [info] > git rev-parse --show-toplevel [2754ms]
+2025-11-09 17:46:56.627 [info] > git rev-parse --git-dir --git-common-dir [460ms]
+2025-11-09 17:46:56.640 [info] [Model][openRepository] Opened repository (path): /home/eumathss/studio2
+2025-11-09 17:46:56.640 [info] [Model][openRepository] Opened repository (real path): /home/eumathss/studio2
+2025-11-09 17:46:56.642 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-09 17:46:56.655 [info] > git config --get commit.template [5ms]
+2025-11-09 17:46:56.883 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [212ms]
+2025-11-09 17:46:56.890 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-09 17:46:56.893 [info] > git rev-parse refs/remotes/origin/treinoindoor [3ms]
+2025-11-09 17:46:56.955 [info] > git status -z -uall [56ms]
+2025-11-09 17:46:57.108 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [199ms]
+2025-11-09 17:46:57.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [13ms]
+2025-11-09 17:46:57.144 [info] > git config --get commit.template [12ms]
+2025-11-09 17:46:57.145 [info] > git config --get --local branch.treinoindoor.vscode-merge-base [3ms]
+2025-11-09 17:46:57.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/treinoindoor refs/remotes/origin/treinoindoor [8ms]
+2025-11-09 17:46:57.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [11ms]
+2025-11-09 17:46:57.179 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-09 17:46:57.181 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [12ms]
+2025-11-09 17:46:57.190 [info] > git rev-parse refs/remotes/origin/treinoindoor [11ms]
+2025-11-09 17:46:57.206 [info] > git status -z -uall [9ms]
+2025-11-09 17:46:57.207 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [19ms]
+2025-11-09 17:46:57.208 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:46:57.321 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-09 17:47:27.873 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads/treinoindoor [36ms]
+2025-11-09 17:47:27.875 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-09 17:47:27.875 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-09 17:47:29.058 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1028ms]
+2025-11-09 17:48:29.600 [info] > git fetch --all [59481ms]
+2025-11-09 17:48:29.600 [info] From https://github.com/brexp/studio2
+   f1a08232..4449da69  treinoindoor -> origin/treinoindoor
+2025-11-09 17:48:29.620 [info] > git config --get commit.template [11ms]
+2025-11-09 17:48:29.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-09 17:48:29.660 [info] > git status -z -uall [32ms]
+2025-11-09 17:48:29.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [21ms]
+2025-11-09 17:48:29.676 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [3ms]
+2025-11-09 17:48:29.689 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [6ms]
+2025-11-09 17:48:29.818 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads/treinoindoor [2ms]
+2025-11-09 17:48:30.331 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [235ms]
+2025-11-09 17:48:30.850 [info] > git config --get commit.template [3ms]
+2025-11-09 17:48:30.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:48:30.888 [info] > git status -z -uall [19ms]
+2025-11-09 17:48:30.889 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-11-09 17:48:35.909 [info] > git config --get commit.template [10ms]
+2025-11-09 17:48:35.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:48:35.927 [info] > git status -z -uall [8ms]
+2025-11-09 17:48:35.929 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:48:58.697 [info] > git log --oneline --cherry treinoindoor...treinoindoor@{upstream} -- [6ms]
+2025-11-09 17:48:59.450 [info] > git pull --tags origin treinoindoor [745ms]
+2025-11-09 17:48:59.450 [info] From https://github.com/brexp/studio2
+ * branch              treinoindoor -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2025-11-09 17:48:59.467 [info] > git config --get commit.template [8ms]
+2025-11-09 17:48:59.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:48:59.486 [info] > git status -z -uall [10ms]
+2025-11-09 17:48:59.487 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-09 17:49:00.785 [info] > git config --get commit.template [7ms]
+2025-11-09 17:49:00.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:49:00.802 [info] > git status -z -uall [8ms]
+2025-11-09 17:49:00.804 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:04.309 [info] > git log --oneline --cherry treinoindoor...treinoindoor@{upstream} -- [5ms]
+2025-11-09 17:49:05.050 [info] > git pull --tags origin treinoindoor [731ms]
+2025-11-09 17:49:05.050 [info] From https://github.com/brexp/studio2
+ * branch              treinoindoor -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2025-11-09 17:49:05.066 [info] > git config --get commit.template [8ms]
+2025-11-09 17:49:05.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [4ms]
+2025-11-09 17:49:05.089 [info] > git status -z -uall [11ms]
+2025-11-09 17:49:05.092 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:06.442 [info] > git config --get commit.template [8ms]
+2025-11-09 17:49:06.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:49:06.463 [info] > git status -z -uall [11ms]
+2025-11-09 17:49:06.464 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:09.623 [info] > git fetch --all [720ms]
+2025-11-09 17:49:09.640 [info] > git config --get commit.template [8ms]
+2025-11-09 17:49:09.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:49:09.656 [info] > git status -z -uall [7ms]
+2025-11-09 17:49:09.658 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:11.482 [info] > git config --get commit.template [9ms]
+2025-11-09 17:49:11.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:49:11.503 [info] > git status -z -uall [11ms]
+2025-11-09 17:49:11.504 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:14.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/treinoindoor [2ms]
+2025-11-09 17:49:14.148 [info] > git log --oneline --cherry treinoindoor...treinoindoor@{upstream} -- [6ms]
+2025-11-09 17:49:14.880 [info] > git pull --tags origin treinoindoor [725ms]
+2025-11-09 17:49:14.880 [info] From https://github.com/brexp/studio2
+ * branch              treinoindoor -> FETCH_HEAD
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+2025-11-09 17:49:14.896 [info] > git config --get commit.template [8ms]
+2025-11-09 17:49:14.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [4ms]
+2025-11-09 17:49:14.915 [info] > git status -z -uall [9ms]
+2025-11-09 17:49:14.916 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-09 17:49:16.517 [info] > git config --get commit.template [2ms]
+2025-11-09 17:49:16.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-09 17:49:16.543 [info] > git status -z -uall [8ms]
+2025-11-09 17:49:16.545 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

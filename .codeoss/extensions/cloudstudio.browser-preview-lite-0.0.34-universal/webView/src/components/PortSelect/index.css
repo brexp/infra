@@ -1,0 +1,8 @@
+.port-select {
+  width: 78px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #888;
+  margin-left: 12px;
+  margin-right: 8px;
+}

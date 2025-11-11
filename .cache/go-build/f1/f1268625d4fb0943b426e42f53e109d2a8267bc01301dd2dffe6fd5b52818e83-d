@@ -1,0 +1,6 @@
+./counter.go
+./file.go
+./parse.go
+./stackcounter.go
+./counter_test.go
+./rotate_test.go

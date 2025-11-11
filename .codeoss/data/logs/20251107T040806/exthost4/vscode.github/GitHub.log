@@ -1,0 +1,2 @@
+2025-11-07 05:05:44.596 [info] Log level: Info
+2025-11-07 05:05:47.684 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Bad credentials - https://docs.github.com/rest

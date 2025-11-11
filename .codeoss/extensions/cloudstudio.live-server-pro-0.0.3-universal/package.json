@@ -1,0 +1,100 @@
+{
+	"name": "live-server-pro",
+	"displayName": "Cloud Studio Live Server",
+	"description": "Browser preview extension",
+	"publisher": "CloudStudio",
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.71.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:cloudstudio.liveServer.htmlPreview"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://devops.codingcorp.net/p/cloud-studio-next/d/cloud-studio/git"
+	},
+	"icon": "assets/logo.png",
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "cloudstudio.liveServer.htmlPreview",
+				"title": "%commands.htmlPreview%",
+				"icon": "$(open-preview)"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "cloudstudio.liveServer.htmlPreview",
+					"when": "resourceLangId == html && resourceScheme == file",
+					"group": "navigation"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "cloudstudio.liveServer.htmlPreview",
+					"when": "flase"
+				}
+			]
+		},
+		"configuration": {
+			"title": "Cloud Studio Live Server Config",
+			"properties": {
+				"cloudStudio.liveServer.htmlPreview.ignoreFiles": {
+					"type": "array",
+					"default": [
+						".vscode/**",
+						"**/*.scss",
+						"**/*.sass",
+						"**/*.ts"
+					],
+					"description": "%settings.ignoreFiles%"
+				},
+				"cloudStudio.liveServer.htmlPreview.whiteList": {
+					"type": "array",
+					"default": [],
+					"description": "%settings.whiteList%"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run package",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"lint": "eslint src --ext ts"
+	},
+	"devDependencies": {
+		"@types/connect": "^3.4.35",
+		"@types/glob": "^8.0.0",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.71.0",
+		"@typescript-eslint/eslint-plugin": "^5.42.0",
+		"@typescript-eslint/parser": "^5.42.0",
+		"copy-webpack-plugin": "^11.0.0",
+		"eslint": "^8.26.0",
+		"glob": "^8.0.3",
+		"ts-loader": "^9.4.1",
+		"typescript": "^4.8.4",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"detect-port": "^1.5.1",
+		"get-port": "^6.1.2",
+		"live-server": "^1.2.2",
+		"nanoid": "^4.0.0",
+		"vscode-nls-i18n": "^0.2.4"
+	},
+	"__metadata": {
+		"installedTimestamp": 1762488883904,
+		"targetPlatform": "universal",
+		"size": 722435
+	}
+}

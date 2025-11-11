@@ -1,0 +1,7 @@
+./date.go
+./findwork.go
+./reports.go
+./run.go
+./upload.go
+./dates_test.go
+./first_test.go

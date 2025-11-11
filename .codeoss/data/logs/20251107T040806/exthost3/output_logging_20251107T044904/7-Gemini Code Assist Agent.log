@@ -1,0 +1,9 @@
+Starting background process...
+Background process started with PID 16287
+[INFO] 2025-11-07 04:49:23.142 AM -- Using InMemoryTaskStore
+(node:16287) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[INFO] 2025-11-07 04:49:23.154 AM -- [CoreAgent] Agent Server started on http://localhost:46173
+[INFO] 2025-11-07 04:49:23.154 AM -- [CoreAgent] Agent Card: http://localhost:46173/.well-known/agent.json
+[INFO] 2025-11-07 04:49:23.155 AM -- BANANA!
+[INFO] 2025-11-07 04:49:23.155 AM -- [CoreAgent] Press Ctrl+C to stop the server

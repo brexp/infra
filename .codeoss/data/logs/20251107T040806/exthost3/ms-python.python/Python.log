@@ -1,0 +1,8 @@
+2025-11-07 04:49:07.486 [warning] Dir "/home/eumathss/.pixi/envs" is not watchable (directory does not exist)
+2025-11-07 04:49:07.486 [info] Python interpreter path: ./.venv/bin/python
+2025-11-07 04:49:11.473 [info] > pyenv which python
+2025-11-07 04:49:11.473 [info] cwd: .
+2025-11-07 04:49:13.350 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
+2025-11-07 04:49:15.040 [info] Starting Jedi language server for eumathss.
+2025-11-07 05:01:50.798 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 05:02:27.109 [info] Discover tests for workspace name: eumathss - uri: /home/eumathss

@@ -1,0 +1,35 @@
+0
+/home/eumathss/gopath/pkg/mod
+2025-11-06 23:08:13
+:counter,golang.org/x/telemetry/counter,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/counter,v0.0.0-20240712210958-268b4a8ec2d7
+Add F 0 name string n int64
+CountCommandLineFlags F 0
+CountFlags F 0 prefix string fs flag.FlagSet
+Counter T
+Inc F 0 name string
+New F 1 name string
+NewStack F 1 name string depth int
+Open F 0
+OpenDir F 0 telemetryDir string
+StackCounter T
+:countertest,golang.org/x/telemetry/counter/countertest,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/counter/countertest,v0.0.0-20240712210958-268b4a8ec2d7
+Open F 0 telemetryDir string
+ReadCounter F 2 c *counter.Counter
+ReadFile F 3 name string
+ReadStackCounter F 2 c *counter.StackCounter
+SupportedPlatform C
+:crashmonitor,golang.org/x/telemetry/crashmonitor,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/crashmonitor,v0.0.0-20240712210958-268b4a8ec2d7
+Supported F 1
+:telemetry,golang.org/x/telemetry,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7,v0.0.0-20240712210958-268b4a8ec2d7
+Config T
+CounterConfig T
+Dir F 1
+MaybeChild F 0 config Config
+Mode F 1
+ProgramConfig T
+ProgramReport T
+Report T
+SetMode F 1 mode string
+Start F 1 config Config
+StartResult T
+UploadConfig T

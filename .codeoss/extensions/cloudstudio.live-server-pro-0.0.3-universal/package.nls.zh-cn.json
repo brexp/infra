@@ -1,0 +1,7 @@
+{
+  "commands.htmlPreview": "显示预览",
+  "settings.ignoreFiles": "忽略特定的文件更改",
+  "settings.whiteList": "允许显示的文件扩展名",
+  "html.forbidden": "禁止访问此文件 <br/>仅支持 \"{0}\" 访问 <br/>如需要访问请添修改 \"cloudStudio.liveServer.htmlPreview.whiteList\" 设置。",
+  "html.back": "返回"
+}

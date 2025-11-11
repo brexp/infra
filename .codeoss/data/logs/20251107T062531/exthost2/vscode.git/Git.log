@@ -1,0 +1,68 @@
+2025-11-07 07:05:22.818 [info] [main] Log level: Info
+2025-11-07 07:05:22.818 [info] [main] Validating found git in: "git"
+2025-11-07 07:05:22.818 [info] [main] Using git "2.43.0" from "git"
+2025-11-07 07:05:22.818 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-07 07:05:22.818 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-07 07:05:22.818 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.827 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 07:05:22.827 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.833 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.833 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.839 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.839 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.845 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.845 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.851 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 07:05:22.851 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.856 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 07:05:22.856 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.862 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.862 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.868 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.868 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.875 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 07:05:22.875 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.881 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.881 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.887 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.887 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.893 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.893 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 07:05:22.899 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 07:05:22.906 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-11-07 07:05:22.923 [info] [Model][openRepository] Opened repository (path): /home/eumathss/studio2
+2025-11-07 07:05:22.923 [info] [Model][openRepository] Opened repository (real path): /home/eumathss/studio2
+2025-11-07 07:05:22.925 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-07 07:05:22.939 [info] > git config --get commit.template [7ms]
+2025-11-07 07:05:22.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 07:05:22.944 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 07:05:22.946 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 07:05:22.959 [info] > git status -z -uall [7ms]
+2025-11-07 07:05:22.961 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 07:05:22.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [9ms]
+2025-11-07 07:05:22.990 [info] > git config --get commit.template [8ms]
+2025-11-07 07:05:22.995 [info] > git config --get --local branch.treinoindoor.vscode-merge-base [6ms]
+2025-11-07 07:05:23.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [7ms]
+2025-11-07 07:05:23.007 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 07:05:23.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/treinoindoor refs/remotes/origin/treinoindoor [7ms]
+2025-11-07 07:05:23.017 [info] > git rev-parse refs/remotes/origin/treinoindoor [10ms]
+2025-11-07 07:05:23.031 [info] > git status -z -uall [8ms]
+2025-11-07 07:05:23.031 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [16ms]
+2025-11-07 07:05:23.038 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-07 07:05:23.053 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [3ms]
+2025-11-07 07:05:23.059 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [22ms]
+2025-11-07 07:05:23.062 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [3ms]
+2025-11-07 07:05:23.752 [info] > git check-ignore -v -z --stdin [3ms]

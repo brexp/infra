@@ -1,0 +1,43 @@
+2025-11-07 04:08:06.999 [info] 
+
+
+
+
+2025-11-07 04:08:07.023 [info] Extension host agent started.
+2025-11-07 04:08:09.828 [info] [127.0.0.1][5899abca][ManagementConnection] New connection established.
+2025-11-07 04:08:10.092 [info] [127.0.0.1][d2956f4b][ExtensionHostConnection] New connection established.
+2025-11-07 04:08:10.942 [info] [127.0.0.1][d2956f4b][ExtensionHostConnection] <1252> Launched Extension Host Process.
+2025-11-07 04:14:40.902 [info] Getting Manifest... cloudstudio.live-server
+2025-11-07 04:14:41.578 [info] Installing extension: cloudstudio.live-server {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/eumathss/.codeoss/extensions/extensions.json","external":"file:///home/eumathss/.codeoss/extensions/extensions.json","path":"/home/eumathss/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.102.3-cde","date":"2025-10-25T07:11:07.546Z"}}
+2025-11-07 04:14:42.418 [info] Getting Manifest... cloudstudio.live-server-pro
+2025-11-07 04:14:42.720 [info] Extracted extension to file:///home/eumathss/.codeoss/extensions/cloudstudio.live-server-0.0.1-universal: cloudstudio.live-server
+2025-11-07 04:14:42.754 [info] Renamed to /home/eumathss/.codeoss/extensions/cloudstudio.live-server-0.0.1-universal
+2025-11-07 04:14:42.779 [info] Extension installed successfully: cloudstudio.live-server file:///home/eumathss/.codeoss/extensions/extensions.json
+2025-11-07 04:14:42.949 [info] Installing extension: cloudstudio.live-server-pro {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/eumathss/.codeoss/extensions/extensions.json","external":"file:///home/eumathss/.codeoss/extensions/extensions.json","path":"/home/eumathss/.codeoss/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.102.3-cde","date":"2025-10-25T07:11:07.546Z"}}
+2025-11-07 04:14:43.904 [info] Extracted extension to file:///home/eumathss/.codeoss/extensions/cloudstudio.live-server-pro-0.0.3-universal: cloudstudio.live-server-pro
+2025-11-07 04:14:43.914 [info] Renamed to /home/eumathss/.codeoss/extensions/cloudstudio.live-server-pro-0.0.3-universal
+2025-11-07 04:14:43.928 [info] Extension installed successfully: cloudstudio.live-server-pro file:///home/eumathss/.codeoss/extensions/extensions.json
+2025-11-07 04:35:50.117 [info] [127.0.0.1][5899abca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-07 04:35:50.540 [info] [127.0.0.1][d2956f4b][ExtensionHostConnection] <1252> Extension Host Process exited with code: 0, signal: null.
+2025-11-07 04:35:52.027 [info] [127.0.0.1][b9f3633e][ManagementConnection] New connection established.
+2025-11-07 04:35:52.286 [info] [127.0.0.1][7ee3a060][ExtensionHostConnection] New connection established.
+2025-11-07 04:35:52.291 [info] [127.0.0.1][7ee3a060][ExtensionHostConnection] <11018> Launched Extension Host Process.
+2025-11-07 04:48:09.521 [info] [127.0.0.1][b9f3633e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-11-07 04:49:01.324 [info] [127.0.0.1][b9f3633e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-11-07 04:49:01.331 [info] [127.0.0.1][2d34cddc][ManagementConnection] New connection established.
+2025-11-07 04:49:01.600 [info] [127.0.0.1][5253aa2b][ExtensionHostConnection] New connection established.
+2025-11-07 04:49:01.606 [info] [127.0.0.1][5253aa2b][ExtensionHostConnection] <15426> Launched Extension Host Process.
+2025-11-07 04:49:23.084 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/eumathss/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory (EUNKNOWN) (path: /home/eumathss)
+2025-11-07 04:49:23.088 [error] [File Watcher (universal)] inotify_add_watch on '/home/eumathss/.cache/cloud-code/CLOUDCODE_BINARY_FROM_ZIP_LOCK' failed: No such file or directory
+2025-11-07 04:54:01.430 [info] [127.0.0.1][b9f3633e][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-11-07 04:54:01.834 [info] [127.0.0.1][7ee3a060][ExtensionHostConnection] <11018> Extension Host Process exited with code: 0, signal: null.
+2025-11-07 05:05:31.271 [info] [127.0.0.1][2d34cddc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-11-07 05:05:31.595 [info] [127.0.0.1][5253aa2b][ExtensionHostConnection] <15426> Extension Host Process exited with code: 0, signal: null.
+2025-11-07 05:05:33.943 [info] [127.0.0.1][ce7d8fbf][ManagementConnection] New connection established.
+2025-11-07 05:05:34.160 [info] [127.0.0.1][ae6477b2][ExtensionHostConnection] New connection established.
+2025-11-07 05:05:34.166 [info] [127.0.0.1][ae6477b2][ExtensionHostConnection] <21458> Launched Extension Host Process.
+2025-11-07 05:19:34.414 [info] [127.0.0.1][75280598][ManagementConnection] New connection established.
+2025-11-07 05:19:34.625 [info] [127.0.0.1][ba2c45dc][ExtensionHostConnection] New connection established.
+2025-11-07 05:19:34.630 [info] [127.0.0.1][ba2c45dc][ExtensionHostConnection] <22472> Launched Extension Host Process.
+2025-11-07 05:33:39.438 [info] [127.0.0.1][ce7d8fbf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-11-07 05:43:04.684 [info] [127.0.0.1][75280598][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

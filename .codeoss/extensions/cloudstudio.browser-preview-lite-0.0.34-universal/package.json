@@ -1,0 +1,173 @@
+{
+	"name": "browser-preview-lite",
+	"displayName": "Cloud Studio Browser Preview Lite",
+	"description": "Browser preview extension",
+	"publisher": "CloudStudio",
+	"version": "0.0.34",
+	"scripts": {
+		"vscode:prepublish": "yarn run build && yarn run build-webview",
+		"package": "vsce package --allow-star-activation --yarn",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"build": "webpack --mode production --devtool hidden-source-map",
+		"build-webview": "cd webView && yarn run build ",
+		"postinstall": "cd webView && yarn",
+		"test-compile": "tsc -p ./",
+		"test-watch": "tsc -watch -p ./",
+		"pretest": "yarn run test-compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"extensionDependencies": [
+		"cloudstudio.common"
+	],
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "assets/icon/preview_plugin.png",
+	"main": "./dist/extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://devops.codingcorp.net/p/cloud-studio-next/d/cloud-studio-extensions/git"
+	},
+	"license": "MIT",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "preview.start",
+				"title": "%preview.title.openPreviewTab%",
+				"category": "Preview"
+			},
+			{
+				"command": "preview.generateTemplate",
+				"title": "%preview.title.generatePreviewConfigFile%",
+				"category": "Preview"
+			},
+			{
+				"command": "preview.copyPreviewLink",
+				"title": "%preview.title.copyPreviewLink%",
+				"icon": {
+					"light": "assets/icon/copy.svg",
+					"dark": "assets/icon/copy.svg"
+				}
+			},
+			{
+				"command": "preview.update",
+				"title": "%preview.title.updatePreviewConfigFile%",
+				"icon": "$(debug-restart~spin)"
+			},
+			{
+				"command": "preview.openYml",
+				"title": "%preview.title.openPreviewConfigFile%",
+				"icon": "$(debug-configure)"
+			},
+			{
+				"command": "preview.openPreviewLink",
+				"title": "%preview.current.tab%",
+				"icon": "$(open-preview)"
+			},
+			{
+				"command": "preview.openBrowserTab",
+				"title": "%preview.openBrowser.tab%",
+				"icon": "$(ports-open-browser-icon)"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "preview.update",
+					"when": "isCloudStudio && resourceFilename == preview.yml",
+					"group": "navigation@1"
+				}
+			],
+			"view/title": [
+				{
+					"command": "preview.openYml",
+					"when": "isCloudStudio && view == listening-sockets",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "preview.copyPreviewLink",
+					"when": "isCloudStudio && view == listening-sockets && viewItem == socket",
+					"group": "inline"
+				},
+				{
+					"command": "preview.openPreviewLink",
+					"when": "isCloudStudio && view == listening-sockets && viewItem == socket",
+					"group": "inline"
+				},
+				{
+					"command": "preview.openBrowserTab",
+					"when": "isCloudStudio && view == listening-sockets && viewItem == socket",
+					"group": "inline"
+				}
+			],
+			"menuBar/file": [
+				{
+					"command": "preview.openYml",
+					"title": "配置预览文件 preview.yml",
+					"group": "3_deploy@2",
+					"when": "isCloudStudio"
+				}
+			]
+		},
+		"viewsContainers": {
+			"panel": [
+				{
+					"id": "sockets-explorer",
+					"title": "%ports%",
+					"icon": "assets/icon/preview_plugin.png",
+					"when": "isCloudStudio"
+				}
+			]
+		},
+		"views": {
+			"sockets-explorer": [
+				{
+					"id": "listening-sockets",
+					"name": "",
+					"when": "isCloudStudio"
+				}
+			]
+		}
+	},
+	"devDependencies": {
+		"@types/http-proxy": "^1.17.0",
+		"@types/js-yaml": "^4.0.5",
+		"@types/portscanner": "^2.1.0",
+		"@types/vscode": "^1.46.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"eslint": "^7.27.0",
+		"@typescript-eslint/eslint-plugin": "^4.26.0",
+		"@typescript-eslint/parser": "^4.26.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2",
+		"ts-loader": "^9.2.2",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.0"
+	},
+	"dependencies": {
+		"http-proxy": "^1.18.0",
+		"js-yaml": "^4.1.0",
+		"portscanner": "^2.2.0",
+		"vscode-nls": "^4.1.1",
+		"vscode-nls-i18n": "^0.2.4"
+	},
+	"__metadata": {
+		"installedTimestamp": 1762487124514,
+		"targetPlatform": "universal",
+		"size": 3222106
+	}
+}

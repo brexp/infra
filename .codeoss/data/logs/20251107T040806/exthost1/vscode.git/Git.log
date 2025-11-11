@@ -1,0 +1,229 @@
+2025-11-07 04:08:16.184 [info] [main] Log level: Info
+2025-11-07 04:08:16.184 [info] [main] Validating found git in: "git"
+2025-11-07 04:08:16.184 [info] [main] Using git "2.43.0" from "git"
+2025-11-07 04:08:16.184 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-07 04:08:16.184 [info] > git rev-parse --show-toplevel [51ms]
+2025-11-07 04:08:16.184 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.184 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-07 04:08:16.184 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.271 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.271 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.278 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.278 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.284 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.284 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.290 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.290 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.296 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.296 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.301 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.301 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.308 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.308 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.314 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.314 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.320 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.320 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.326 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.326 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.332 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-07 04:08:16.332 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:16.338 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:08:16.338 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:08:19.074 [info] > git rev-parse --show-toplevel [2731ms]
+2025-11-07 04:08:19.879 [info] > git rev-parse --git-dir --git-common-dir [694ms]
+2025-11-07 04:08:19.898 [info] [Model][openRepository] Opened repository (path): /home/eumathss/studio2
+2025-11-07 04:08:19.898 [info] [Model][openRepository] Opened repository (real path): /home/eumathss/studio2
+2025-11-07 04:08:19.901 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-07 04:08:19.936 [info] > git config --get commit.template [25ms]
+2025-11-07 04:08:20.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [227ms]
+2025-11-07 04:08:20.429 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:08:20.434 [info] > git rev-parse refs/remotes/origin/treinoindoor [5ms]
+2025-11-07 04:08:20.588 [info] > git check-ignore -v -z --stdin [7ms]
+2025-11-07 04:08:20.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [206ms]
+2025-11-07 04:08:20.806 [info] > git status -z -uall [361ms]
+2025-11-07 04:08:20.880 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [36ms]
+2025-11-07 04:08:20.895 [info] > git config --get --local branch.treinoindoor.vscode-merge-base [2ms]
+2025-11-07 04:08:20.908 [info] > git config --get commit.template [39ms]
+2025-11-07 04:08:20.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/treinoindoor refs/remotes/origin/treinoindoor [5ms]
+2025-11-07 04:08:20.937 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [12ms]
+2025-11-07 04:08:20.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [15ms]
+2025-11-07 04:08:20.965 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:08:20.966 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [17ms]
+2025-11-07 04:08:20.969 [info] > git rev-parse refs/remotes/origin/treinoindoor [4ms]
+2025-11-07 04:08:21.082 [info] > git status -z -uall [101ms]
+2025-11-07 04:08:21.083 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [83ms]
+2025-11-07 04:09:24.240 [info] > git check-ignore -v -z --stdin [74ms]
+2025-11-07 04:09:28.424 [info] > git show --textconv :CalendarIcon.tsx [139ms]
+2025-11-07 04:09:28.424 [info] > git ls-files --stage -- CalendarIcon.tsx [106ms]
+2025-11-07 04:09:28.495 [info] > git cat-file -s 45b4d1f49811b3bc4cf0501010c4814b34c98ce1 [29ms]
+2025-11-07 04:10:52.708 [info] > git config --get commit.template [13ms]
+2025-11-07 04:10:52.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [4ms]
+2025-11-07 04:10:52.728 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:10:52.729 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:10:52.774 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-07 04:10:52.780 [info] > git status -z -uall [38ms]
+2025-11-07 04:10:57.799 [info] > git config --get commit.template [3ms]
+2025-11-07 04:10:57.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:10:57.815 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:10:57.817 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:10:57.837 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 04:10:57.848 [info] > git status -z -uall [23ms]
+2025-11-07 04:12:20.582 [info] > git config --get commit.template [9ms]
+2025-11-07 04:12:20.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:12:20.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:20.609 [info] > git rev-parse refs/remotes/origin/treinoindoor [17ms]
+2025-11-07 04:12:20.632 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-11-07 04:12:20.641 [info] > git status -z -uall [25ms]
+2025-11-07 04:12:25.912 [info] > git config --get commit.template [10ms]
+2025-11-07 04:12:25.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:12:25.921 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:25.922 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:12:25.947 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-07 04:12:25.970 [info] > git status -z -uall [39ms]
+2025-11-07 04:12:30.994 [info] > git config --get commit.template [10ms]
+2025-11-07 04:12:30.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:12:31.006 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:31.008 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:12:31.031 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-07 04:12:31.040 [info] > git status -z -uall [23ms]
+2025-11-07 04:12:35.243 [info] > git show --textconv :CalendarIcon.tsx [17ms]
+2025-11-07 04:12:35.244 [info] > git ls-files --stage -- CalendarIcon.tsx [2ms]
+2025-11-07 04:12:35.257 [info] > git cat-file -s 45b4d1f49811b3bc4cf0501010c4814b34c98ce1 [3ms]
+2025-11-07 04:12:41.614 [info] > git config --get commit.template [1ms]
+2025-11-07 04:12:41.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:12:41.635 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:41.637 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:12:41.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-07 04:12:41.670 [info] > git status -z -uall [23ms]
+2025-11-07 04:12:47.379 [info] > git config --get commit.template [12ms]
+2025-11-07 04:12:47.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:12:47.391 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:47.393 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:12:47.417 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-11-07 04:12:47.432 [info] > git status -z -uall [32ms]
+2025-11-07 04:12:53.113 [info] > git config --get commit.template [13ms]
+2025-11-07 04:12:53.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:12:53.122 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:53.124 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:12:53.146 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-07 04:12:53.156 [info] > git status -z -uall [25ms]
+2025-11-07 04:12:58.183 [info] > git config --get commit.template [11ms]
+2025-11-07 04:12:58.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:12:58.195 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:12:58.199 [info] > git rev-parse refs/remotes/origin/treinoindoor [4ms]
+2025-11-07 04:12:58.222 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-07 04:12:58.237 [info] > git status -z -uall [27ms]
+2025-11-07 04:13:03.292 [info] > git config --get commit.template [22ms]
+2025-11-07 04:13:03.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [15ms]
+2025-11-07 04:13:03.330 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:13:03.335 [info] > git rev-parse refs/remotes/origin/treinoindoor [5ms]
+2025-11-07 04:13:03.358 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 04:13:03.370 [info] > git status -z -uall [25ms]
+2025-11-07 04:13:16.122 [info] > git config --get commit.template [2ms]
+2025-11-07 04:13:16.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:13:16.140 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:13:16.142 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:13:16.167 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-07 04:13:16.176 [info] > git status -z -uall [25ms]
+2025-11-07 04:13:21.199 [info] > git config --get commit.template [11ms]
+2025-11-07 04:13:21.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:13:21.213 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:13:21.215 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:13:21.243 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-11-07 04:13:21.252 [info] > git status -z -uall [28ms]
+2025-11-07 04:13:26.271 [info] > git config --get commit.template [8ms]
+2025-11-07 04:13:26.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:13:26.281 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:13:26.283 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:13:26.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 04:13:26.312 [info] > git status -z -uall [23ms]
+2025-11-07 04:13:56.547 [info] > git show --textconv :CalendarIcon.tsx [8ms]
+2025-11-07 04:13:56.548 [info] > git ls-files --stage -- CalendarIcon.tsx [2ms]
+2025-11-07 04:13:56.558 [info] > git cat-file -s 45b4d1f49811b3bc4cf0501010c4814b34c98ce1 [2ms]
+2025-11-07 04:14:22.631 [info] > git config --get commit.template [22ms]
+2025-11-07 04:14:22.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [6ms]
+2025-11-07 04:14:22.658 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:14:22.668 [info] > git rev-parse refs/remotes/origin/treinoindoor [10ms]
+2025-11-07 04:14:22.711 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-11-07 04:14:22.727 [info] > git status -z -uall [40ms]
+2025-11-07 04:14:27.788 [info] > git config --get commit.template [28ms]
+2025-11-07 04:14:27.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [11ms]
+2025-11-07 04:14:27.815 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:14:27.823 [info] > git rev-parse refs/remotes/origin/treinoindoor [8ms]
+2025-11-07 04:14:27.882 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-07 04:14:27.908 [info] > git status -z -uall [58ms]
+2025-11-07 04:14:32.949 [info] > git config --get commit.template [21ms]
+2025-11-07 04:14:32.950 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [2ms]
+2025-11-07 04:14:32.961 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:14:32.965 [info] > git rev-parse refs/remotes/origin/treinoindoor [4ms]
+2025-11-07 04:14:32.998 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-11-07 04:14:33.009 [info] > git status -z -uall [34ms]
+2025-11-07 04:14:38.025 [info] > git config --get commit.template [2ms]
+2025-11-07 04:14:38.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:14:38.043 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:14:38.045 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:14:38.062 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 04:14:38.073 [info] > git status -z -uall [20ms]
+2025-11-07 04:14:43.074 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-07 04:14:43.074 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:16:02.658 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-07 04:16:02.658 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:18:34.628 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-07 04:18:34.628 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:18:35.279 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [683ms]
+2025-11-07 04:20:02.890 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-07 04:20:02.890 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:23:18.341 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-07 04:23:18.342 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:23:41.474 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-07 04:23:41.474 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-07 04:23:59.292 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [3ms]
+2025-11-07 04:24:01.908 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [209ms]
+2025-11-07 04:24:07.276 [info] > git add -A -- . [34ms]
+2025-11-07 04:24:07.344 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [60ms]
+2025-11-07 04:24:07.354 [info] > git config --get commit.template [1ms]
+2025-11-07 04:24:07.371 [info] > git config --get commit.template [8ms]
+2025-11-07 04:24:07.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:24:07.381 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:24:07.383 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:24:07.402 [info] > git status -z -uall [12ms]
+2025-11-07 04:24:07.403 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-07 04:24:07.419 [info] > git merge-base refs/heads/treinoindoor refs/remotes/origin/treinoindoor [3ms]
+2025-11-07 04:24:07.429 [info] > git diff --name-status -z --diff-filter=ADMR f1a08232df03cfe0e7fe98c6fbd4085ae12376db...refs/remotes/origin/treinoindoor [3ms]
+2025-11-07 04:24:07.600 [info] > git config --get commit.template [8ms]
+2025-11-07 04:24:07.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:24:07.610 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:24:07.612 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:24:07.631 [info] > git status -z -uall [12ms]
+2025-11-07 04:24:07.634 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-07 04:24:07.802 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [220ms]
+2025-11-07 04:24:08.704 [info] > git config --get commit.template [8ms]
+2025-11-07 04:24:08.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/treinoindoor refs/remotes/treinoindoor [3ms]
+2025-11-07 04:24:08.713 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eumathss/studio2/.git/refs/remotes/origin/treinoindoor'
+2025-11-07 04:24:08.714 [info] > git rev-parse refs/remotes/origin/treinoindoor [2ms]
+2025-11-07 04:24:08.729 [info] > git status -z -uall [7ms]
+2025-11-07 04:24:08.731 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-07 04:34:31.677 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-07 04:34:31.677 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

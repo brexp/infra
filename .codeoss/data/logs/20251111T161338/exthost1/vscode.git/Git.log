@@ -1,0 +1,89 @@
+2025-11-11 16:13:48.716 [info] [main] Log level: Info
+2025-11-11 16:13:48.716 [info] [main] Validating found git in: "git"
+2025-11-11 16:13:48.716 [info] [main] Using git "2.43.0" from "git"
+2025-11-11 16:13:48.716 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-11 16:13:48.716 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-11 16:13:48.716 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:48.716 [info] > git rev-parse --show-toplevel [16ms]
+2025-11-11 16:13:48.716 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:49.495 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-11 16:13:49.495 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.403 [info] > git rev-parse --show-toplevel [12ms]
+2025-11-11 16:13:53.403 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.417 [info] > git rev-parse --show-toplevel [7ms]
+2025-11-11 16:13:53.417 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.426 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-11 16:13:53.426 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.434 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-11 16:13:53.434 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.548 [info] > git rev-parse --show-toplevel [109ms]
+2025-11-11 16:13:53.548 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.568 [info] > git rev-parse --show-toplevel [8ms]
+2025-11-11 16:13:53.568 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.629 [info] > git rev-parse --show-toplevel [54ms]
+2025-11-11 16:13:53.629 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.659 [info] > git rev-parse --show-toplevel [22ms]
+2025-11-11 16:13:53.659 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.675 [info] > git rev-parse --show-toplevel [6ms]
+2025-11-11 16:13:53.675 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.688 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-11 16:13:53.688 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.701 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-11 16:13:53.701 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.714 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-11 16:13:53.714 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:13:53.715 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-11 16:13:53.923 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-11 16:13:53.923 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-11 16:15:51.622 [info] > git init -b main [20ms]
+2025-11-11 16:15:51.631 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-11 16:15:51.662 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [24ms]
+2025-11-11 16:15:51.677 [info] [Model][openRepository] Opened repository (path): /home/eumathss
+2025-11-11 16:15:51.677 [info] [Model][openRepository] Opened repository (real path): /home/eumathss
+2025-11-11 16:15:51.677 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-11 16:15:51.695 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-11 16:15:51.696 [info] > git config --get commit.template [9ms]
+2025-11-11 16:15:51.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-11 16:15:51.698 [warning] [Git][getBranch] No such branch: main
+2025-11-11 16:15:51.718 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-11 16:15:52.075 [info] > git status -z -uall [369ms] (cancelled)
+2025-11-11 16:15:52.076 [info] > git check-ignore -v -z --stdin [4ms]
+2025-11-11 16:15:53.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1437ms]
+2025-11-11 16:15:53.656 [warning] [Git][getBranch] No such branch: main
+2025-11-11 16:15:53.657 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-11-11 16:15:53.679 [info] > git config --get commit.template [39ms]
+2025-11-11 16:15:53.698 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-11 16:15:53.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-11-11 16:15:53.703 [warning] [Git][getBranch] No such branch: main
+2025-11-11 16:15:53.741 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-11 16:15:54.057 [info] > git status -z -uall [341ms] (cancelled)
+2025-11-11 16:15:54.058 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-11 16:15:59.849 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-11 16:16:32.441 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-11-11 16:16:32.442 [info] fatal: bad revision 'refs/heads/main'
+2025-11-11 16:16:32.442 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-11-11 16:16:35.544 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [2ms]
+2025-11-11 16:17:04.791 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [3ms]
+2025-11-11 16:53:41.416 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [2ms]
+2025-11-11 16:53:43.685 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [2ms]

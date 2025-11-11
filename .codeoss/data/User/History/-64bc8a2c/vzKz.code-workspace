@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "eumathss",
+			"uri": "vscode-remote://970-cs-469344742581-default.cs-us-east1-rtep.cloudshell.dev/home/eumathss"
+		}
+	],
+	"remoteAuthority": "970-cs-469344742581-default.cs-us-east1-rtep.cloudshell.dev",
+	"settings": {
+		"files.exclude": {
+			"**/.*": true
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "commands.htmlPreview": "Show Preview",
+  "settings.ignoreFiles": "To ignore specific file changes",
+  "settings.whiteList": "Allowed file extensions to be displayed",
+  "html.forbidden": "Disable access to this file <br/> only support \"{0}\" access <br/>if you need to access please add to modify the \"cloudStudio.liveServer.htmlPreview.whiteList\" settings",
+  "html.back": "Back"
+}

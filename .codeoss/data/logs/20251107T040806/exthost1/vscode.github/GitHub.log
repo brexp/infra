@@ -1,0 +1,5 @@
+2025-11-07 04:08:16.184 [info] Log level: Info
+2025-11-07 04:08:22.485 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: Bad credentials - https://docs.github.com/rest
+2025-11-07 04:18:35.433 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for brexp/studio2: HttpError: Bad credentials - https://docs.github.com/rest
+2025-11-07 04:24:02.050 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for brexp/studio2: HttpError: Bad credentials - https://docs.github.com/rest
+2025-11-07 04:24:07.938 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for brexp/studio2: HttpError: Bad credentials - https://docs.github.com/rest

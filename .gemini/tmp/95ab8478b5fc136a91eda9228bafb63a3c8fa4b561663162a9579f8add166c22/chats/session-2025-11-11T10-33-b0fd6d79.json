@@ -1,0 +1,14 @@
+{
+  "sessionId": "b0fd6d79-81ad-4477-a88a-2c349f8e4d43",
+  "projectHash": "95ab8478b5fc136a91eda9228bafb63a3c8fa4b561663162a9579f8add166c22",
+  "startTime": "2025-11-11T10:34:07.312Z",
+  "lastUpdated": "2025-11-11T10:34:07.312Z",
+  "messages": [
+    {
+      "id": "9e615c62-72ef-40c3-a80e-598561a9b03f",
+      "timestamp": "2025-11-11T10:34:07.312Z",
+      "type": "user",
+      "content": "me ajude a corrigir o valor do faturamento atual da api gemini"
+    }
+  ]
+}

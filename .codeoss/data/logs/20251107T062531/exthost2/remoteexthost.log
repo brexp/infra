@@ -1,0 +1,184 @@
+2025-11-07 07:05:20.173 [info] Extension host with pid 2230 started
+2025-11-07 07:05:20.184 [info] Lock '/home/eumathss/.codeoss/data/User/workspaceStorage/26658d94/vscode.lock': Lock acquired.
+2025-11-07 07:05:20.478 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-07 07:05:20.688 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-07 07:05:20.688 [info] ExtensionService#_doActivateExtension CloudStudio.common, startup: true, activationEvent: '*'
+2025-11-07 07:05:20.808 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:.venv'
+2025-11-07 07:05:21.142 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-07 07:05:21.145 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-07 07:05:21.287 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-11-07 07:05:21.460 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-11-07 07:05:21.547 [info] Eager extensions activated
+2025-11-07 07:05:21.548 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:21.548 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-11-07 07:05:21.549 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:21.549 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:21.550 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:21.550 [info] ExtensionService#_doActivateExtension CloudStudio.browser-preview-lite, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:21.550 [info] ExtensionService#_doActivateExtension CloudStudio.browser-preview-lite-club, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:22.795 [error] Error: Invalid expression token: -Cloud
+	at t.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:372492)
+	at t.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:372027)
+	at t.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:372161)
+	at n.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:368667)
+	at n.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:369212)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:369099
+	at t.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:373689)
+	at n.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:369075)
+	at n.value (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:368903)
+	at c.doHandle (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:28332)
+	at c.handle (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:27942)
+	at Object.<anonymous> (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:28034)
+	at i (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:9846)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:10063
+	at Array.forEach (<anonymous>)
+	at h (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:12448)
+	at i (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:9991)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:10063
+	at Array.forEach (<anonymous>)
+	at h (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:12448)
+	at i (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:9991)
+	at n (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:10504)
+	at i.forEach (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:11572)
+	at c.handle (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:27980)
+	at c.getContext (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:27881)
+	at c.doHandle (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:28164)
+	at c.handle (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:27942)
+	at s.get (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:17896)
+	at o.dynamicValue (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:34671)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:355122
+	at l (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:354143)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:355063
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:353554)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:355623
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:353710)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:355623
+	at t.resolve (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:355886)
+	at /home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:339972
+	at y._get (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:339738)
+	at y.get (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:338415)
+	at t.ApplicationFactory.create (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:1:12569)
+	at t.createApplication (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:79663)
+	at Timeout._onTimeout (/home/eumathss/.codeoss/extensions/cloudstudio.common-0.0.31-universal/dist/extension.js:30:232041)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2025-11-07 07:05:23.247 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-07 07:05:23.247 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-07 07:05:23.248 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-07 07:05:23.603 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-07 07:05:25.677 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalCompletionsRequested'
+2025-11-07 07:05:28.843 [error] Error: unauthorized.
+	at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+	at async Ab.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:41564)
+	at async t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8289942)
+	at async t.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8289606)
+	at async t.CloudShellTheiaAuth.checkAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8289522)
+	at async t.CloudShellAuthProvider.checkAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8256873)
+	at async t.setGcloudStateContext (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8235895)
+	at async /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8935732
+	at async t.Startup.event (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8963150)
+	at async t.globalActivate (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8935665)
+	at async t.Startup.event (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8963150)
+	at async /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8933137
+	at async t.Startup.event (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8963150)
+	at async t.activate (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/extension.js:2:8932972)
+	at async db.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+	at async db.m (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+	at async db.l (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:12805) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-11-07 07:05:28.849 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-11-07 07:05:36.365 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Ab.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:41564)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9674513)
+    at t.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9674177)
+    at t.CloudShellAuthProvider.getAccessToken (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9642896)
+    at t.ExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9706614)
+    at t.ExperimentationService.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9706470)
+    at _e (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10447540)
+    at t.activate (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10445843)
+    at db.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+    at db.m (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+    at db.l (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:12805) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-11-07 07:05:36.370 [error] Activating extension googlecloudtools.cloudcode failed due to an error:
+2025-11-07 07:05:36.371 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9674273)
+    at t.CloudShellAuthProvider.getAccessToken (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9642896)
+    at t.ExperimentationService.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9706614)
+    at t.ExperimentationService.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:9706470)
+    at _e (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10447540)
+    at t.activate (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloudcode/dist/extension.js:14:10445843)
+    at db.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+    at db.m (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+    at db.l (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:112:12805)
+2025-11-07 07:37:26.769 [info] Extension host terminating: received terminate message from renderer
+2025-11-07 07:37:26.770 [info] Lock '/home/eumathss/.codeoss/data/User/workspaceStorage/26658d94/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-11-07 07:37:26.801 [error] An error occurred when deactivating the extension 'CloudStudio.browser-preview-lite':
+2025-11-07 07:37:26.803 [error] TypeError: Cannot read properties of undefined (reading 'timeBox')
+    at Object.t.deactivate (/home/eumathss/.codeoss/extensions/cloudstudio.browser-preview-lite-0.0.34-universal/dist/extension.js:1:69827)
+    at KG.eb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:11726)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+    at Array.map (<anonymous>)
+    at KG.$ (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+    at KG.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+    at Y3.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+    at us (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:8097)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at ao.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+    at H1.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at Hx.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7228)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at SM.z (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21747)
+    at SM.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21553)
+    at EM.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20080)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17312
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-11-07 07:37:26.804 [error] An error occurred when deactivating the extension 'CloudStudio.browser-preview-lite-club':
+2025-11-07 07:37:26.808 [error] TypeError: Cannot read properties of undefined (reading 'timeBox')
+    at Object.t.deactivate (/home/eumathss/.codeoss/extensions/cloudstudio.browser-preview-lite-club-0.0.50-universal/dist/extension.js:2:141552)
+    at KG.eb (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:11726)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:9876
+    at Array.map (<anonymous>)
+    at KG.$ (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:9864)
+    at KG.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:117:10107)
+    at Y3.terminate (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:914)
+    at us (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:9945)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:356:8097)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at ao.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:9459)
+    at H1.A (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:12575)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:10995)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at Hx.acceptChunk (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7942)
+    at Gh.value (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:7228)
+    at $.C (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+    at $.fire (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+    at SM.z (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21747)
+    at SM.acceptFrame (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:21553)
+    at EM.n (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:20080)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:17312
+    at Socket.t (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:29:15252)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-11-07 07:37:26.844 [info] Extension host with pid 2230 exiting with code 0

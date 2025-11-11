@@ -1,0 +1,9 @@
+2025-11-07 03:55:40.828 [warning] Dir "/home/eumathss/.pixi/envs" is not watchable (directory does not exist)
+2025-11-07 03:55:40.829 [info] Python interpreter path: ./.venv/bin/python
+2025-11-07 03:55:45.394 [info] > pyenv which python
+2025-11-07 03:55:45.394 [info] cwd: .
+2025-11-07 03:55:47.192 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
+2025-11-07 03:55:47.193 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
+2025-11-07 03:55:47.193 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
+2025-11-07 03:55:48.455 [info] Starting Jedi language server for eumathss.
+2025-11-07 04:07:13.277 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate

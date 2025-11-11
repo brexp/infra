@@ -1,0 +1,18 @@
+2025-11-07 04:35:57.675 [info] read schema from vscode: vscode://schemas/settings/user
+2025-11-07 04:35:57.677 [info] cancelled
+2025-11-07 04:35:58.486 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-11-07 04:36:01.769 [info] schema change detected vscode://schemas/settings/user
+2025-11-07 04:36:01.778 [info] read schema from vscode: vscode://schemas/launch
+2025-11-07 04:36:01.819 [info] read schema from vscode: vscode://schemas/token-styling
+2025-11-07 04:36:01.888 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-11-07 04:36:01.929 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-11-07 04:36:02.620 [info] cancelled
+2025-11-07 04:36:02.655 [info] read schema from vscode: vscode://schemas/settings/user
+2025-11-07 04:36:05.164 [info] schema change detected vscode://schemas/launch
+2025-11-07 04:36:05.170 [info] read schema from vscode: vscode://schemas/settings/user
+2025-11-07 04:36:05.253 [info] schema change detected vscode://schemas/settings/user
+2025-11-07 04:36:05.478 [info] read schema from vscode: vscode://schemas/launch
+2025-11-07 04:36:05.839 [info] cancelled
+2025-11-07 04:36:05.885 [info] read schema from vscode: vscode://schemas/settings/user
+2025-11-07 04:36:12.392 [info] schema change detected vscode://schemas/settings/user
+2025-11-07 04:36:12.689 [info] read schema from vscode: vscode://schemas/settings/user

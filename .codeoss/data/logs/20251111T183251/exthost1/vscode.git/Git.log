@@ -1,0 +1,69 @@
+2025-11-11 18:33:01.291 [info] [main] Log level: Info
+2025-11-11 18:33:01.291 [info] [main] Validating found git in: "git"
+2025-11-11 18:33:01.291 [info] [main] Using git "2.43.0" from "git"
+2025-11-11 18:33:01.291 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-11 18:33:01.303 [info] > git rev-parse --show-toplevel [40ms]
+2025-11-11 18:33:05.963 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4651ms]
+2025-11-11 18:33:05.976 [info] [Model][openRepository] Opened repository (path): /home/eumathss
+2025-11-11 18:33:05.976 [info] [Model][openRepository] Opened repository (real path): /home/eumathss
+2025-11-11 18:33:05.976 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-11 18:33:06.199 [info] > git rev-parse --show-toplevel [201ms]
+2025-11-11 18:33:06.200 [info] > git config --get commit.template [210ms]
+2025-11-11 18:33:06.253 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-11 18:33:06.257 [info] > git rev-parse --show-toplevel [35ms]
+2025-11-11 18:33:06.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-11-11 18:33:06.293 [warning] [Git][getBranch] No such branch: main
+2025-11-11 18:33:06.314 [info] > git rev-parse --show-toplevel [32ms]
+2025-11-11 18:33:06.315 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-11 18:33:06.364 [info] > git rev-parse --show-toplevel [37ms]
+2025-11-11 18:33:06.379 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-11 18:33:06.395 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-11 18:33:06.424 [info] > git rev-parse --show-toplevel [15ms]
+2025-11-11 18:33:06.445 [info] > git rev-parse --show-toplevel [10ms]
+2025-11-11 18:33:06.459 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-11 18:33:06.508 [info] > git rev-parse --show-toplevel [40ms]
+2025-11-11 18:33:06.546 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-11 18:33:06.616 [info] > git rev-parse --show-toplevel [58ms]
+2025-11-11 18:33:06.616 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-11 18:33:35.432 [info] > git status -z -uall [29130ms] (cancelled)
+2025-11-11 18:33:35.433 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-11 18:33:37.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1742ms]
+2025-11-11 18:33:37.341 [warning] [Git][getBranch] No such branch: main
+2025-11-11 18:33:37.342 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-11-11 18:33:37.368 [info] > git config --get commit.template [36ms]
+2025-11-11 18:33:37.393 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-11 18:33:37.394 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-11-11 18:33:37.394 [warning] [Git][getBranch] No such branch: main
+2025-11-11 18:33:37.440 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-11 18:33:37.797 [info] > git status -z -uall [384ms] (cancelled)
+2025-11-11 18:33:37.798 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-11 18:35:12.717 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [34ms]
+2025-11-11 18:35:12.717 [info] fatal: bad revision 'refs/heads/main'
+2025-11-11 18:35:12.718 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-11-11 18:35:13.207 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-11 18:35:15.178 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [3ms]
+2025-11-11 18:44:25.250 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-11 18:44:27.846 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-11-11 18:44:27.846 [info] fatal: bad revision 'refs/heads/main'
+2025-11-11 18:44:27.847 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-11-11 18:44:39.065 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [2ms]
+2025-11-11 18:45:42.869 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [3ms]
+2025-11-11 18:45:45.431 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads [2ms]
+2025-11-11 18:45:49.113 [info] > git checkout -q -b mymon --no-track HEAD [2ms]
+2025-11-11 18:45:49.114 [info] fatal: 'HEAD' is not a commit and a branch 'mymon' cannot be created from it
+2025-11-11 18:45:49.126 [info] > git config --get commit.template [2ms]
+2025-11-11 18:45:49.135 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-11 18:45:49.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-11 18:45:49.137 [warning] [Git][getBranch] No such branch: main
+2025-11-11 18:45:49.157 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-11 18:45:49.539 [info] > git status -z -uall [394ms] (cancelled)

@@ -1,0 +1,213 @@
+0
+/home/eumathss/gopath/pkg/mod
+2025-11-06 23:29:27
+:counter,golang.org/x/telemetry/counter,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/counter,v0.0.0-20240712210958-268b4a8ec2d7
+Add F 0 name string n int64
+CountCommandLineFlags F 0
+CountFlags F 0 prefix string fs flag.FlagSet
+Counter T
+Inc F 0 name string
+New F 1 name string
+NewStack F 1 name string depth int
+Open F 0
+OpenDir F 0 telemetryDir string
+StackCounter T
+:countertest,golang.org/x/telemetry/counter/countertest,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/counter/countertest,v0.0.0-20240712210958-268b4a8ec2d7
+Open F 0 telemetryDir string
+ReadCounter F 2 c *counter.Counter
+ReadFile F 3 name string
+ReadStackCounter F 2 c *counter.StackCounter
+SupportedPlatform C
+:crashmonitor,golang.org/x/telemetry/crashmonitor,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7/crashmonitor,v0.0.0-20240712210958-268b4a8ec2d7
+Supported F 1
+:dirhash,golang.org/x/mod/sumdb/dirhash,golang.org/x/mod@v0.19.0/sumdb/dirhash,v0.19.0
+DefaultHash V
+DirFiles F 2 dir string prefix string
+Hash T
+Hash1 F 2 files []string open func(string)$(io.ReadCloser,$error)
+HashDir F 2 dir string prefix string hash Hash
+HashZip F 2 zipfile string hash Hash
+:errgroup,golang.org/x/sync/errgroup,golang.org/x/sync@v0.7.0/errgroup,v0.7.0
+Group T
+WithContext F 2 ctx context.Context
+:modfile,golang.org/x/mod/modfile,golang.org/x/mod@v0.19.0/modfile,v0.19.0
+AutoQuote F 1 s string
+Comment T
+CommentBlock T
+Comments T
+Error T
+ErrorList T
+Exclude T
+Expr T
+File T
+FileSyntax T
+Format F 1 f *FileSyntax
+Go T
+GoVersionRE V
+Godebug T
+IsDirectoryPath F 1 ns string
+LParen T
+Line T
+LineBlock T
+Module T
+ModulePath F 1 mod []byte
+MustQuote F 1 s string
+Parse F 2 file string data []byte fix VersionFixer
+ParseLax F 2 file string data []byte fix VersionFixer
+ParseWork F 2 file string data []byte fix VersionFixer
+Position T
+RParen T
+Replace T
+Require T
+Retract T
+Toolchain T
+ToolchainRE V
+Use T
+VersionFixer T
+VersionInterval T
+WorkFile T
+:module,golang.org/x/mod/module,golang.org/x/mod@v0.19.0/module,v0.19.0
+CanonicalVersion F 1 v string
+Check F 1 path string version string
+CheckFilePath F 1 path string
+CheckImportPath F 1 path string
+CheckPath F 1 path string
+CheckPathMajor F 1 v string pathMajor string
+EscapePath F 2 path string
+EscapeVersion F 2 v string
+InvalidPathError T
+InvalidVersionError T
+IsPseudoVersion F 1 v string
+IsZeroPseudoVersion F 1 v string
+MatchPathMajor F 1 v string pathMajor string
+MatchPrefixPatterns F 1 globs string target string
+ModuleError T
+PathMajorPrefix F 1 pathMajor string
+PseudoVersion F 1 major string older string t time.Time rev string
+PseudoVersionBase F 2 v string
+PseudoVersionRev F 2 v string
+PseudoVersionTime F 2 v string
+PseudoVersionTimestampFormat C
+Sort F 0 list []Version
+SplitPathVersion F 3 path string
+UnescapePath F 2 escaped string
+UnescapeVersion F 2 escaped string
+Version T
+VersionError F 1 v Version err error
+ZeroPseudoVersion F 1 major string
+:note,golang.org/x/mod/sumdb/note,golang.org/x/mod@v0.19.0/sumdb/note,v0.19.0
+GenerateKey F 3 rand io.Reader name string
+InvalidSignatureError T
+NewEd25519VerifierKey F 2 name string key ed25519.PublicKey
+NewSigner F 2 skey string
+NewVerifier F 2 vkey string
+Note T
+Open F 2 msg []byte known Verifiers
+Sign F 2 n *Note signers ...Signer
+Signature T
+Signer T
+UnknownVerifierError T
+UnverifiedNoteError T
+Verifier T
+VerifierList F 1 list ...Verifier
+Verifiers T
+:semaphore,golang.org/x/sync/semaphore,golang.org/x/sync@v0.7.0/semaphore,v0.7.0
+NewWeighted F 1 n int64
+Weighted T
+:semver,golang.org/x/mod/semver,golang.org/x/mod@v0.19.0/semver,v0.19.0
+Build F 1 v string
+ByVersion T
+Canonical F 1 v string
+Compare F 1 v string w string
+IsValid F 1 v string
+Major F 1 v string
+MajorMinor F 1 v string
+Max FD 1 v string w string
+Prerelease F 1 v string
+Sort F 0 list []string
+:singleflight,golang.org/x/sync/singleflight,golang.org/x/sync@v0.7.0/singleflight,v0.7.0
+Group T
+Result T
+:storage,golang.org/x/mod/sumdb/storage,golang.org/x/mod@v0.19.0/sumdb/storage,v0.19.0
+Mem T
+Storage T
+TestStorage F 0 t *testing.T ctx context.Context storage Storage
+Transaction T
+Write T
+:sumdb,golang.org/x/mod/sumdb,golang.org/x/mod@v0.19.0/sumdb,v0.19.0
+Client T
+ClientOps T
+ErrGONOSUMDB V
+ErrSecurity V
+ErrWriteConflict V
+NewClient F 1 ops ClientOps
+NewServer F 1 ops ServerOps
+NewTestServer F 1 signer string gosum func(path,$vers$string)$([]byte,$error)
+Server T
+ServerOps T
+ServerPaths V
+TestServer T
+:syncmap,golang.org/x/sync/syncmap,golang.org/x/sync@v0.7.0/syncmap,v0.7.0
+Map T
+:telemetry,golang.org/x/telemetry,golang.org/x/telemetry@v0.0.0-20240712210958-268b4a8ec2d7,v0.0.0-20240712210958-268b4a8ec2d7
+Config T
+CounterConfig T
+Dir F 1
+MaybeChild F 0 config Config
+Mode F 1
+ProgramConfig T
+ProgramReport T
+Report T
+SetMode F 1 mode string
+Start F 1 config Config
+StartResult T
+UploadConfig T
+:tlog,golang.org/x/mod/sumdb/tlog,golang.org/x/mod@v0.19.0/sumdb/tlog,v0.19.0
+CheckRecord F 1 p RecordProof t int64 th Hash n int64 h Hash
+CheckTree F 1 p TreeProof t int64 th Hash n int64 h Hash
+FormatRecord F 2 id int64 text []byte
+FormatTree F 1 tree Tree
+Hash T
+HashFromTile F 2 t Tile data []byte index int64
+HashReader T
+HashReaderFunc T
+HashSize C
+NewTiles F 1 h int oldTreeSize int64 newTreeSize int64
+NodeHash F 1 left Hash right Hash
+ParseHash F 2 s string
+ParseRecord F 4 msg []byte
+ParseTilePath F 2 path string
+ParseTree F 2 text []byte
+ProveRecord F 2 t int64 n int64 r HashReader
+ProveTree F 2 t int64 n int64 h HashReader
+ReadTileData F 2 t Tile r HashReader
+RecordHash F 1 data []byte
+RecordProof T
+SplitStoredHashIndex F 2 index int64
+StoredHashCount F 1 n int64
+StoredHashIndex F 1 level int n int64
+StoredHashes F 2 n int64 data []byte r HashReader
+StoredHashesForRecordHash F 2 n int64 h Hash r HashReader
+Tile T
+TileForIndex F 1 h int index int64
+TileHashReader F 1 tree Tree tr TileReader
+TileReader T
+Tree T
+TreeHash F 2 n int64 r HashReader
+TreeProof T
+:zip,golang.org/x/mod/zip,golang.org/x/mod@v0.19.0/zip,v0.19.0
+CheckDir F 2 dir string
+CheckFiles F 2 files []File
+CheckZip F 2 m module.Version zipFile string
+CheckedFiles T
+Create F 1 w io.Writer m module.Version files []File
+CreateFromDir F 1 w io.Writer m module.Version dir string
+CreateFromVCS F 1 w io.Writer m module.Version repoRoot string revision string subdir string
+File T
+FileError T
+FileErrorList T
+MaxGoMod C
+MaxLICENSE C
+MaxZipFile C
+UnrecognizedVCSError T
+Unzip F 1 dir string m module.Version zipFile string

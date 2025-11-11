@@ -1,0 +1,17 @@
+2025-11-07 04:08:14.288 [warning] Dir "/home/eumathss/.pixi/envs" is not watchable (directory does not exist)
+2025-11-07 04:08:14.369 [info] Python interpreter path: ./.venv/bin/python
+2025-11-07 04:08:16.165 [info] > pyenv which python
+2025-11-07 04:08:16.165 [info] cwd: .
+2025-11-07 04:08:19.904 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
+2025-11-07 04:08:22.532 [info] Starting Jedi language server for eumathss.
+2025-11-07 04:18:33.031 [info] Discover tests for workspace name: eumathss - uri: /home/eumathss
+2025-11-07 04:20:02.520 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:20:03.695 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:23:18.373 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:23:19.564 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:23:41.632 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:23:42.178 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:23:45.387 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:35:37.828 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:35:42.060 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
+2025-11-07 04:35:44.911 [info] Discover tests for workspace name: undefined - uri: /User/settings.json

@@ -1,0 +1,4 @@
+2025-11-09 17:46:53.198 [info] Log level: Info
+2025-11-09 17:46:58.275 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-11-09 17:47:29.434 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for brexp/studio2: Error: No GitHub authentication session available.
+2025-11-09 17:48:31.070 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for brexp/studio2/6e439f54350510efe1f62d83620f0f958f7faa97: TypeError: Cannot read properties of null (reading 'author')
