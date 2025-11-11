@@ -4,3 +4,4 @@
 2025-11-11 18:33:06.212 [info] cwd: .
 2025-11-11 18:33:06.255 [info] Send text to terminal: source /home/eumathss/.venv/bin/activate
 2025-11-11 18:33:08.709 [info] Starting Jedi language server for eumathss.
+2025-11-11 18:53:47.846 [info] Discover tests for workspace name: undefined - uri: /User/settings.json
